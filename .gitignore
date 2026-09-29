@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment & secrets — never commit these
+.env
+.env.local
+.env.*.local
+
+# Chunked-upload local object storage (runtime data)
+.data/
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
